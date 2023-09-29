@@ -1,0 +1,78 @@
+.verde{
+    color:green;
+}
+
+.limite-text{
+   margin-left: 50%;
+   font-family: sans-serif;
+}
+.btn-custom {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.btn-success{
+   background-color: rgb(6, 170, 6);
+}
+.card-group{
+    display: flex;
+    gap: 2em;
+}
+@media(min-width:360px){
+    .btn .btn-warning .btn-sm{
+        width: 50px;
+        font-size: 7px;
+    }
+    .btn .btn-info .btn-sm .text-white{
+        width: 50px;
+        font-size: 7px;
+    }
+    
+}
+
+.card-tittle{
+    margin-top: -18px !important;
+}
+
+.main-card{
+    font-size: 0.7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 700;
+}
+.card-text .orador-card{
+    font-size: 1rem;
+    color: gray;
+}
+
+
+.opacidad{
+    filter: brightness(80%);
+}
+#boton-enviar{
+    background-color: rgb(128, 190, 35);
+}
+footer{
+    background-color: rgb(58, 80, 111);
+}
+#izquierda-footer{
+    text-align: left;
+}
+.row .menu ul{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+h5,h4{
+    color: grey;
+}
+.charla{
+    color: #3c3c54;
+    border-bottom: thin dashed;
+}
